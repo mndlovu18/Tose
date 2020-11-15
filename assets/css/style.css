@@ -371,8 +371,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
+  margin-top: 80px;	
+  font-size: 36px;
+  font-family: 'Lobster', cursive;
 }
 
 #hero p {
@@ -2371,3 +2372,5 @@ section {
 .name {
 	color: #fff;
 }
+
+
