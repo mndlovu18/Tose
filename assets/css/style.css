@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: #1e4356;
 }
 
 a {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
-  padding: 4px 0;
+  padding: 10px 0 ;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
@@ -102,6 +102,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #main {
   margin-top: 80px;
 }
+
+
 
 
 /*--------------------------------------------------------------
@@ -238,6 +240,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #ddecf5;
   padding: 10px 20px;
   font-weight: 500;
+}
+
+.bg-color{
+	background-color: #bf9000;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -987,6 +993,11 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 60px 0;
+  background: #1e4356;
+  padding: 0 0 30px 0;
+  color: #bf9000;
+  font-size: 14px;
+	
 }
 
 .testimonials .section-header {
@@ -1008,7 +1019,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
@@ -2356,3 +2367,7 @@ section {
 }
 
 
+
+.name {
+	color: #fff;
+}
