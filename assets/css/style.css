@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient( rgba(30, 67, 86, 0.52), rgba(186, 148, 30, 0.53)), url("../img/kids.jpg") center no-repeat;
+  background: linear-gradient( rgba(30, 67, 86, 0.52), rgba(186, 148, 30, 0.44)), url("../img/kids.jpg") center no-repeat;
   background-size: 1300px ;	
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -382,7 +382,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #1e4356;
+  color: #fff;
+  font-size: 20px;	
 }
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
