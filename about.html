@@ -28,13 +28,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Moderna - v2.1.0
-  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+	
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>	
 </head>
 
 <body>
@@ -45,15 +42,14 @@
 
       <div class="logo float-left">
         <h1 class="text-light"><a href="index.html"><span>Tose Foundation</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="#">Programs</a></li>
+          <li><a href="about.html" >About Us</a></li>
+          <li><a href="services.html">Our Program</a></li>
           <li><a href="#">Partners</a></li>
           <li><a href="#">Contact Us</a></li>
 		   <li><a href="#" class="bg-color">Donate</a></li>		
@@ -62,29 +58,43 @@
 
     </div>
   </header><!-- End Header -->
-
+	
   <main id="main">
     <!-- ======= About Section ======= -->
+	  <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>About Us</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>About Us</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+	  
     <section class="about" data-aos="fade-up">
       <div class="container">
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/tose.jpeg " class="img-fluid rounded-circle" alt="">
+        <div class="row justify-content-center">
+         <div class="col-lg-5">
+            <img src="assets/img/tose.jpeg " class="img-fluid " alt="">
           </div>	
-          <div class="col-lg-8 pt-4 pt-lg-0 ">
-            <h3>Who we are</h3>
+          <div class="col-lg-7 pt-4 pt-lg-0 ">
             <p class="font-italic">
 				Tose Foundation is a non-profit organization that was founded in September, 2020 by four college students from various backgrounds and majors who are passionate about providing access to educational opportunities to students from less privileged backgrounds in Zimbabwe. 
 			</p>
             <p>
-              The name of the organization is in Shona which means “together” because we believe that if we come together as a community we can achieve much and help the brilliant students who lack resources to reach their full potential. As Tose we are committed to :
+              The name of the organization is in Shona which means “together” because we believe human intelligence is not a race with one track and one golden cup. It differs as a natural meadow and works like an ecosystem where we all thrive because of understanding and embracing our differences. We can use our diversity of ideas, talents, and resources to support each other to reach our full potential. As Tose we are committed to:
 
 				<ul>
               <li><i class="icofont-hat"></i> Host a Fellows Program that will run for 9 weeks for high achieving, low income students in Zimbabwe.</li>
               <li><i class="icofont-hat"></i> Provide to our fellows an all rounded access to life skills and development opportunities which include having life long mentors and access to an efficient alumni network.
-</li>
+              </li>
               <li><i class="icofont-hat"></i> Shorten the bridge between unemployment and corruption in Zimbabwe by providing an opportunity for equal access to open attachment/internship opportunities.   </li>
+			   <li><i class="icofont-hat"></i>   </li>		
             </ul>
             </p>
           </div>
@@ -93,10 +103,11 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Facts Section ======= 
+    <!-- ======= Facts Section =======  
     <section class="facts section-bg" data-aos="fade-up">
-      <div class="container">
-
+      <div class="container ">
+			 <h4 class="text-center mb-5">Goals for 2021</h4>
+		  
         <div class="row counters justify-content-center">
 
           <div class="col-lg-3 col-6 text-center">
@@ -123,77 +134,50 @@
 
       </div>
     </section><!-- End Facts Section -->
-
-  
-    <!-- ======= Tetstimonials Section ======= -->
-    <section class="testimonials" data-aos="fade-up">
-      <div class="container">
-
-        <div class="section-title">
-          <h1>TESTIMONIALS</h1>
-          <p>Hear what students who have worked with Tose have to say about our foundation</p>
+	
+	 <!-- ======= Tetstimonials Section ======= -->
+	
+	<section class="testimonials m-0 mt-5 container-fluid px-3 px-sm-5 text-center">
+    <h4 class="mb-5 pt-5 font-weight-bold text-white">Hear what students who have worked with Tose have to say about our foundation</h4>
+    <div class="owl-carousel owl-theme">
+        <div class="item first prev">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">Student 2</h6>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
         </div>
-
-        <div class="owl-carousel testimonials-carousel">
-
-          <div class="testimonial-item">
-            <img src="assets/img/Key.jpg" class="testimonial-img" alt="minolta">
-            <h3>Minolta Ndlovu</h3>
-            <h4> </h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-             One of the things I feared about coming into the US was not being able to really manage the few savings I had from home. Attending the orientation program gave me the assurance that I could be careful with how I managed my funds in the early stages of my college career by prioritizing my expenses into needs and wants. That has saved me a lot of money thanks to this program!
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="assets/img/Key.jpg" class="testimonial-img" alt="">
-            <h3>Sandra </h3>
-            <h4></h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              I love Tose
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="assets/img/Key.jpg" class="testimonial-img" alt="">
-            <h3>Chelsea</h3>
-            <h4></h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Way to go Tose!
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="assets/img/Key.jpg" class="testimonial-img" alt="">
-            <h3>Wadzi</h3>
-            <h4></h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              It's been an honor being a part of the first cohort
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-			</div>
-
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+				<div class="row justify-content-center"> <img src="assets/img/shandu.jpeg" class="img-fluid profile-pic rounded-circle mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">Shandukurai Chiuswa, Dartmouth '24</h6>
+                <p class="content mb-5 mx-2">One of the things I feared about coming into the US was not being able to really manage the few savings I had from home. Attending the orientation program that was organized by Tose gave me the assurance that I could be careful with how I managed my funds in the early stages of my college career by prioritizing my expenses into needs and wants. That has saved me a lot of money thanks to this program!</p>
+            </div>
         </div>
-
-      </div>
-    </section><!-- End Ttstimonials Section -->
-
-  </main><!-- End #main -->
+        <div class="item next">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">Student 3</h6>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+        <div class="item last">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">Student 4</h6>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+    </div>
+</section> <!-- End Ttstimonials Section -->
 
   <!-- ======= Footer ======= -->
 	
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+  <footer id="footer">
   
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Tose Foundation</span></strong>. All Rights Reserved
+       Copyright &copy; 2020 <strong><span>Tose Foundation</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         
@@ -202,8 +186,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
+	</main>	
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
