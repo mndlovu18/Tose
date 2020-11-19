@@ -659,7 +659,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #bf9000;
 }
 
 .services .description {
@@ -669,7 +669,7 @@ section {
 }
 
 .services .icon-box-pink .icon {
-  background: #fceef3;
+  background: #fff;
 }
 
 .services .icon-box-pink .icon i {
@@ -677,11 +677,12 @@ section {
 }
 
 .services .icon-box-pink:hover {
-  border-color: #ff689b;
+  border-color: #fceef3;
+ 
 }
 
 .services .icon-box-cyan .icon {
-  background: #e6fdfc;
+  background: #fff;
 }
 
 .services .icon-box-cyan .icon i {
@@ -693,7 +694,7 @@ section {
 }
 
 .services .icon-box-green .icon {
-  background: #eafde7;
+  background: #fff;
 }
 
 .services .icon-box-green .icon i {
@@ -705,7 +706,7 @@ section {
 }
 
 .services .icon-box-blue .icon {
-  background: #e1eeff;
+  background: #fff;
 }
 
 .services .icon-box-blue .icon i {
