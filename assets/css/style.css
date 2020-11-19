@@ -655,7 +655,7 @@ section {
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .services .title a {
@@ -663,7 +663,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 28px;
   margin-bottom: 0;
 }
