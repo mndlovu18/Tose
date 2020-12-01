@@ -38,10 +38,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled a{
-  color: #1e4356;
+  color: #fff;
 }
 #header.header-scrolled {
-  background: #f5f5f5;
+  background:#e1f4fc ;
   height: 60px;
   padding: 10px 0;
 }
@@ -63,9 +63,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #header .logo img {
   padding: 0;
-  margin: 0;
-  width: 100px;
-  
+  margin: 0; 
 }
 
 #main {
@@ -635,21 +633,19 @@ section {
 }
 
 .services .title a {
-  color: #bf9000;
+  color: #ffff;
 }
 
 .services .description {
   font-size: 12px;
   line-height: 28px;
   margin-bottom: 0;
+  text-align: left;
+  
 }
 
 .services .icon-box-pink .icon {
   background: #fff;
-}
-
-.services .icon-box-pink .icon i {
-  color: #ff689b;
 }
 
 .services .icon-box-pink:hover {
@@ -662,7 +658,7 @@ section {
 }
 
 .services .icon-box-cyan .icon i {
-  color: #3fcdc7;
+  color: #bf9000;
 }
 
 .services .icon-box-cyan:hover {
@@ -673,20 +669,12 @@ section {
   background: #fff;
 }
 
-.services .icon-box-green .icon i {
-  color: #41cf2e;
-}
-
 .services .icon-box-green:hover {
   border-color: #41cf2e;
 }
 
 .services .icon-box-blue .icon {
   background: #fff;
-}
-
-.services .icon-box-blue .icon i {
-  color: #2282ff;
 }
 
 .services .icon-box-blue:hover {
@@ -998,7 +986,8 @@ button:focus {
 }
 
 .contact .info-box {
-  color: #444;
+  	
+  color:#1e4356;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -1102,7 +1091,7 @@ button:focus {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #68A4C4;
+  background:#1e4356;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1141,157 +1130,6 @@ button:focus {
   font-size: 14px;
 }
 
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #0d2735;
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  color: #a2cce3;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  margin: 3px;
-  background: #68A4C4;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type="submit"]:hover {
-  background: #468db3;
-}
-
-#footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
-  padding: 60px 0 30px 0;
-}
-
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-info h3 {
-  font-size: 18px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  color: #a2cce3;
-  font-weight: 600;
-}
-
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
-  color: #fff;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #1e4356;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #68A4C4;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer .footer-top h4 {
-  font-size: 18px;
-  font-weight: 600;
-  color: #a2cce3;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #a2cce3;
-  font-size: 18px;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #fff;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  color: #a2cce3;
-}
-
-#footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-contact p {
-  line-height: 26px;
-}
-
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
@@ -1308,6 +1146,10 @@ button:focus {
 .name {
 	color: #fff;
 }
+
+
+
+
 
 
 
