@@ -1153,3 +1153,8 @@ button:focus {
 
 
 
+
+.content {
+	font-size: 13px;
+	text-align: left;
+}
