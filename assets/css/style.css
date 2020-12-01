@@ -38,10 +38,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled a{
-  color: #fff;
+  color: #1e4356;
 }
 #header.header-scrolled {
-  background:#f1fbff ;
+  background:#f0f6f8 ;
   height: 60px;
   padding: 10px 0;
 }
